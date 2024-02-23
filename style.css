@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.box {
+    /* display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column-reverse; */
+    text-align: center;
+    height: 300px;
+    width: 320px;
+    background-color: #a2bbeecd;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0px 10px 10px rgba(0, 0, 255, 0.285);
+}
+h4 {
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 25px;
+}
+input[type=submit] {
+    background-color: rgb(79, 75, 179);
+    color: aliceblue;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 20px;
+}
+input[type=radio] {
+    accent-color: rgb(106, 33, 223);
+    border-color: red;
+}
+input[type=radio][name=painter]:checked + label  {
+    color: rgb(83, 9, 112);
+}
+#submit:hover {
+    background-color: #fff;
+    color: black;
+}
+.para {
+    text-align: center;
+    
+}
+p {
+    text-shadow: 0px 0px 10px rgb(233, 233, 238), 0px 0px 10px rgb(19, 46, 223) ;
+    font-size: 20px;
+    text-transform: capitalize;
+}
